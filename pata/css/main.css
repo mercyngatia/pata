@@ -6,6 +6,8 @@ body{
 .pata{
 	min-height: 1000px;
 	background-color: #232e3f;
+	position: absolute;
+	width: 100%;
 }
 header{
 	/*background-color: #bbb;*/
@@ -14,8 +16,9 @@ header{
 .header1{
 	height: 60px;
 	width: 100%;
-	background-color: grey;
+	background-color: #45dfc2;
 	position: absolute;
+	
 }
 .search{
 	width: 400px;
@@ -24,7 +27,7 @@ header{
 	margin: 0 auto;
 	float: right;
 	margin-right: 20px;
-	margin-top: 10px;
+	margin-top: -30px;
 	text-align: left;
 
 }
@@ -38,8 +41,7 @@ input[type=text]{
 }
 .all{
 	width: 400px;
-	height: 50px;
-	/*background-color: red;*/
+	height: 50px; 
 	margin-top: 4px;
 	margin-left: 500px;
 	position: absolute;
@@ -48,6 +50,8 @@ input[type=text]{
 }
 .header1 .all .all1{
 	font-size: 20px;
+	color: #232e3f;
+
 }
 
 li{
@@ -58,10 +62,10 @@ li{
 }
 ul li a{
 	text-decoration: none;
-	color: blue;
+	color: #1e283a;
 }
  ul li a:hover{
-	color: pink;
+	color: #1e283a;
 }
  ul li a:active{
 	color: green;
@@ -84,7 +88,7 @@ ul li a{
 .log a{
 	text-decoration: none;
 	text-align: center;
-	color: red;
+	color: #1f2a3b;
 }
 /*.log a:hover{
 	color: red;
@@ -209,10 +213,10 @@ ul li a{
 	height: 350px;
 }
 .text{
-	width: 315px;
+	width: 280px;
 	height: 400px;
 	/*background-color: orange;*/
-	float: left;
+	float: right;
 
 }
 .shop2{
@@ -225,7 +229,7 @@ ul li a{
 .alloffer{
 	height: 1000px;
 	width: 100%;
-	/*background-color: red;*/
+	background-color: #232e3f;
 	margin-top: 60px;
 	position: absolute;
 
@@ -236,6 +240,7 @@ ul li a{
 	background-color: grey;
 	margin:40px;
 	float: left;
+	color: #45dfc2;
 	
 
 }
@@ -251,7 +256,7 @@ ul li a{
 .feedb2{
 	width: 100%;
 	height: 500px;
-	/*background-color: black;*/
+	background-color: #232e3f;
 	margin-top: 1060px;
 }
 .feedb1{
@@ -259,8 +264,15 @@ ul li a{
 	height: 500px;
 	/*margin-top:20px;*/
 }
+ .text h3 a{
+	color: #45dfc2;
+}
+.text p a{
+	color: #fff;
+}
 h2{
 	text-align: center;
+	color: #45dfc2;
 }
 input[type=text], input[type=password] {
     width: 400px;
@@ -273,7 +285,7 @@ input[type=text], input[type=password] {
     border-radius: 5px;
 }
 button {
-    background-color: #4CAF50;
+    background-color: #45dfc2;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -284,12 +296,14 @@ button {
 }
 .cancelbtn {
     padding: 14px 20px;
-    background-color: #f44336;
+    /*background-color: #45dfc2;*/
     width: 200px;
     border-radius: 5px;
 }
+
 .container {
     padding: 16px;
+    color: #45dfc2;
 }
 .clearfix::after {
     content: "";
